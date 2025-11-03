@@ -13,7 +13,7 @@ const privacy = ref({
 </script>
 
 <template>
-  <Card class="mb-6">
+  <Card class="mb-6 card-theme">
     <template #title>Visibilidade do Perfil</template>
     <template #content>
       <div class="space-y-4">
@@ -33,7 +33,7 @@ const privacy = ref({
     </template>
   </Card>
 
-  <Card>
+  <Card class="card-theme">
     <template #title>Palavras Ocultas</template>
     <template #content>
       <div class="space-y-3">

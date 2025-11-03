@@ -16,7 +16,7 @@ const updateProfile = () => {
 </script>
 
 <template>
-  <Card class="mb-6">
+  <Card class="mb-6 card-theme">
     <template #title>Informações da Conta</template>
     <template #content>
       <div class="space-y-4">
@@ -37,7 +37,7 @@ const updateProfile = () => {
     </template>
   </Card>
 
-  <Card>
+  <Card class="card-theme">
     <template #title>Segurança</template>
     <template #content>
       <div class="space-y-3">

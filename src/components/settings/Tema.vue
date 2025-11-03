@@ -15,7 +15,7 @@ const themeOptions = ref([
 </script>
 
 <template>
-  <Card class="mb-6">
+  <Card class="mb-6 card-theme">
     <template #title>Modo do Tema</template>
     <template #content>
       <div class="space-y-4">
@@ -35,7 +35,7 @@ const themeOptions = ref([
     </template>
   </Card>
 
-  <Card>
+  <Card class="card-theme">
     <template #title>Ações Rápidas</template>
     <template #content>
       <div class="space-y-2">

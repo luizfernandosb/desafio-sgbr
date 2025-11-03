@@ -11,7 +11,7 @@ const faqItems = ref([
 </script>
 
 <template>
-  <Card>
+  <Card class="card-theme">
     <template #title>FAQ - Perguntas Frequentes</template>
     <template #content>
       <Accordion :multiple="true">
