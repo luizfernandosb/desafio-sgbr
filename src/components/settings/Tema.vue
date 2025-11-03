@@ -21,7 +21,7 @@ const themeOptions = ref([
       <div class="space-y-4">
         <div class="flex items-center justify-between">
           <span>Tema Escuro</span>
-          <InputSwitch v-model="themeStore.isDark" @change="themeStore.toggleTheme" />
+          <InputSwitch :modelValue="themeStore.isDark" @update:modelValue="val => themeStore.setTheme(val ? 'dark' : 'light')" />
         </div>
         <div>
           <label class="block text-sm font-medium mb-2">Modo Preferido</label>
